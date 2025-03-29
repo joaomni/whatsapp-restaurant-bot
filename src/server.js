@@ -1,8 +1,9 @@
-require("dotenv").config();
-const express = require("express");
-const venom = require("venom-bot");
+const dotenv = await import("dotenv");
+dotenv.config();
+import express from "express"
+import venom from "venom-bot"
 
-const app = express();
+import app = express();
 app.use(express.json());
 
 let client;
