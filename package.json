@@ -2,6 +2,7 @@
   "name": "whatsapp-restaurant-bot",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "node src/server.js",
@@ -9,5 +10,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "redis": "^4.7.0",
+    "venom-bot": "^5.3.0",
+    "winston": "^3.17.0"
+  }
 }
